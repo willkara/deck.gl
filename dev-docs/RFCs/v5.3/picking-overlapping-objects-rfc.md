@@ -40,11 +40,11 @@ New Function: `pickMultipleObjects()`
 Returns a list of objects under the point, optionally stopping after a maximum number of matches.
 
 ```js
-const pickInfos = layerManager.pickMultipleObjects({x, y, matches: 5});
+const pickInfos = layerManager.pickMultipleObjects({x, y, depth: 5});
 ```
 
 Parameters
-* `matches`=`-1` - If set to a positive number, limits the number of matches.
+* `depth`=`10` - Limits the number of matches.
 
 
 ## Picking Module
